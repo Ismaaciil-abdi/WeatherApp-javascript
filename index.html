@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/weather-app.png" type="image/x-png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <!-- Waxa uu so saari dona jawiyada kala duwan ee casimadaha dunida -->
+  <div class="container">
+      <img src="./img/weather-app.png" alt="Weather Icon">
+      <h1>Weather App</h1>
+      <div class="search-container">
+          <input type="text" id="cityInput" placeholder="Enter City">
+          <button onclick="getWeather()">Search</button>
+      </div>
+      <div id="weatherInfo">
+      </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
